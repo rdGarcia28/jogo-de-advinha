@@ -7,4 +7,5 @@ while index < 3 do
     puts "Você acertou?"
     puts palpite == numero_secreto
     puts" "
+    index = index + 1
 end
