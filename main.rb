@@ -1,7 +1,10 @@
-puts "Entre com um palpite: "
-palpite = gets.chomp.to_i
-
 numero_secreto = 121
+index = 0
 
-puts "Você acertou?"
-puts palpite == numero_secreto
+while index < 3 do
+    puts "Entre com um palpite: "
+    palpite = gets.chomp.to_i
+    puts "Você acertou?"
+    puts palpite == numero_secreto
+    puts" "
+end
